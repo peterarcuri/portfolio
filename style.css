@@ -97,6 +97,7 @@ hr {
     
     background-color:   rgb(3, 36, 41);  
     border:   rgb(16, 124, 146);  
+    color: #9d9d9d;
     
 }
 
@@ -104,7 +105,7 @@ hr {
     background-color:   rgb(13, 93, 108);  
     border:   rgb(16, 124, 146);
     box-shadow: 5px 5px 10px rgb(58, 56, 56);  
-    color: rgb(183, 27, 27);
+    color: #d7d3d3;
 }
 
 #footerItems {
@@ -113,7 +114,7 @@ hr {
 }
 
 .buffer1 {
-    margin-top: 3.2rem;
+    margin-top: 13rem;
 }
 
 .buffer2 {
@@ -121,7 +122,7 @@ hr {
 }
 
 .buffer3 {
-    margin-top: 1.3rem;
+    margin-top: 3rem;
 }
 
 .buffer4 {
@@ -141,7 +142,7 @@ hr {
 }
 
 .buffer8 {
-    margin-top: 12rem;
+    margin-top: 1rem;
 }
 
 .buffer9 {
@@ -170,6 +171,25 @@ hr {
 }
 
 /* Resume */
+
+.profilePic {
+    height: 20rem;
+    box-shadow: 3px 3px 20px #000000;
+}
+
+.profile {
+    height: 15vh;
+}
+
+span {
+    font-size: 2.7rem;
+    color: #c8c1c1;
+    background: linear-gradient(to top, #010d2d, #005C78); 
+    text-shadow: 2px 2px 4px #050505; 
+    box-shadow: 3px 3px 20px #000000;
+    border-radius: 1.1rem;
+
+}
 
 .card {
     width: 50%;
@@ -225,42 +245,51 @@ hr {
 .missionLogo {
     border-radius: 3rem;
     box-shadow: 3px 3px 20px #f9b666;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
 }
 
 .education {
     border-radius: 1.5rem;
     box-shadow: 3px 3px 20px #f9b666;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    
 }
 
 .experience {
     border-radius: 1rem;
     box-shadow: 3px 3px 20px #f9b666;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    
 }
 
 .awards {
     border-radius: 1.5rem;
     box-shadow: 3px 3px 20px #f9b666;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;  
 }
 
-.contactContainer {
-    background: linear-gradient(to top, #010d2d, #005C78); 
-    width: 60%;
-    border-radius: 3rem;
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 3px 3px 20px #f9b666;    
+}
+
+.contactPhotoCards {
     box-shadow: 3px 3px 20px #f9b666;
-
 }
 
-#contact {
-    font-size: 5rem;
-    list-style: none;
-    text-decoration: none;
-    text-shadow: 2px 2px 4px #121111;  
-}
-
-#contactItems {
-    color: #98d2eb;
-    font-size: 3rem;
-    list-style: none;
-    text-decoration: none;
-    text-shadow: 2px 2px 4px #121111;   
+.hobbies {
+    box-shadow: 3px 3px 20px #f9b666;
 }
