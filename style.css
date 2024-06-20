@@ -1,8 +1,7 @@
 *, *::before, *::after {
     padding: 0;
     margin: 0;  
-    box-sizing: border-box;  
-    
+    box-sizing: border-box;      
 }
 
 body, html {
@@ -12,7 +11,6 @@ body, html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;    
-
 }
 
 h1 {
@@ -42,11 +40,9 @@ hr {
     border: 2px solid #c8c1c1;
 }
 
-.footerContainer {
-        
+.footerContainer {        
     padding: 1rem;
-    border-radius: 3.12rem;
-    
+    border-radius: 3.12rem;    
     color: #9d9d9d;
     border: none;
     text-shadow: 2px 2px 6px #080808;   
@@ -93,12 +89,10 @@ hr {
     color:  rgb(16, 124, 146);  
 }
 
-.btn-primary {
-    
+.btn-primary {    
     background-color:   rgb(3, 36, 41);  
     border:   rgb(16, 124, 146);  
-    color: #9d9d9d;
-    
+    color: #9d9d9d;    
 }
 
 .btn-primary:hover {
@@ -170,8 +164,6 @@ hr {
     font-weight: 400;
 }
 
-/* Resume */
-
 .profilePic {
     height: 20rem;
     box-shadow: 3px 3px 20px #000000;
@@ -188,7 +180,10 @@ span {
     text-shadow: 2px 2px 4px #050505; 
     box-shadow: 3px 3px 20px #000000;
     border-radius: 1.1rem;
+}
 
+.contactHeader {
+    box-shadow: 3px 3px 20px #000000;
 }
 
 .card {
@@ -201,10 +196,9 @@ span {
 .card-body {
     background: linear-gradient(to right, #4b8fa3, #005C78);  
     width: 19.5rem;   
-    box-shadow: 3px 3px 20px #f9b666;
-   
+    box-shadow: 3px 3px 20px #f9b666;   
 }
-  
+
 .card-footer {
     background: linear-gradient(to right, #4b8fa3, #005C78);  
     width: 19.5rem;  
@@ -224,7 +218,6 @@ span {
     text-shadow: 2px 2px 4px #8a8787;    
     font-size: 1.3rem;
     width: 80%;
-
 }
 
 .card-img-top {
@@ -233,14 +226,24 @@ span {
 }
 
 .card-img-top2 {
-    width: 24rem;
-    box-shadow: 3px 3px 20px #f9b666;
+    width: 19.5rem;
+    box-shadow: 3px 3px 20px #000000;
+}
+
+.card2 {
+    background: linear-gradient(to right, #4b8fa3, #005C78);  
+    width: 19.5rem;   
+    box-shadow: 3px 3px 20px #f9b666;   
+}
+
+.card-body2 {
+    color: #050505;       
 }
 
 .card-title2 {
-    width: 24rem;
-    box-shadow: 3px 3px 20px #f9b666;
-    background: linear-gradient(to right, #4b8fa3, #005C78);  
+    color: #9d9d9d;
+    text-shadow: 2px 2px 4px #050505;  
+    text-decoration: underline; 
 }
 
 .missionLogo {
@@ -258,8 +261,7 @@ span {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-shrink: 1;
-    
+    flex-shrink: 1;    
 }
 
 .experience {
@@ -268,8 +270,7 @@ span {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-shrink: 1;
-    
+    flex-shrink: 1;    
 }
 
 .awards {
@@ -284,8 +285,8 @@ span {
 .no-padding {
     padding-left: 0;
     padding-right: 0;
-    box-shadow: 3px 3px 20px #f9b666;    
-    height: 30%;
+    box-shadow: 3px 3px 7px #f9b666;    
+    height: 53vh;
 }
 
 .contactPhotoCards {
@@ -293,5 +294,5 @@ span {
 }
 
 .hobbies {
-    box-shadow: 3px 3px 20px #f9b666;
+    box-shadow: 3px 3px 20px #000000;    
 }
