@@ -23,7 +23,6 @@
 <body>
 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" aria-label="Fourth navbar example">
-
     <div class="container-fluid justify-content-md-center">
       <a class="navbar-brand" href="index.html"><h1>Peter Arcuri: Web Developer</h1></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation" style="font-size: 20px !important;">
@@ -31,10 +30,10 @@
 
     <div class="collapse navbar-collapse" id="navbarsExample04" style="font-size: 16px !important; line-height: 24px !important;">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-              <li class="nav-item mx-2"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section1">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section2">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section3">Contact</a></li>
+              <li class="nav-item mx-2"><a class="nav-link" href="#section4">Hobbies</a></li>
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
 
             <ul class="dropdown-menu">
@@ -45,71 +44,164 @@
           </ul>
       </div>
     </div>
-
   </nav>
 
-  <div class="buffer1"></div>
 
-  <div class="container-fluid">
+  <div class="container-fluid pt-5" id="section1">
 
-    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 justify-content-center">
-      <div class="col col-sm-3 col-md-3 col-xl-3 pt-5 pb-3">
-        <div class="card w-50 h-100 mx-auto justify-content-center">
-          <img src="auroraHotel image.png" class="card-img-top" alt="...">  
-        <div class="card-body"><h5 class="card-title">Aurora Hotel Project</h5>
-            <p class="card-text">View the northern lights from a glass igloo. Landing page for a psuedo-startup Hotel.</p>
-          </div>
-          <div class="card-footer">
-            <a href="https://peterarcuri.github.io/aurorahotelproject/index.html" target=”_blank” rel="noopener noreferrer"><button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Book now!</button></a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col col-sm-3 col-md-3 col-xl-3 pt-5 pb-3">
-        <div class="card h-100 mx-auto justify-content-center">
-          <img src="tindogImage.png" class="card-img-top" alt="...">  
-        <div class="card-body">
-            <h5 class="card-title">TinDog</h5>
-            <p class="card-text">Ready for my best first doggy date ever, are you? A recreation of Tinder but for K9 companionship</p>
-          </div>
-          <div class="card-footer">
-            <a href="https://peterarcuri.github.io/Tindog/" target=”_blank” rel="noopener noreferrer"><button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">TinDog</button></a>
-          </div>
-        </div>
+    <div id="myCarousel" class="carousel slide pt-5" data-bs-ride="carousel">
+      <div class="carousel-indicators" style="font-size: 16px !important;">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1" style="font-size: 16px !important;"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" style="font-size: 16px !important;" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" style="font-size: 16px !important;" class="active" aria-current="true"></button>
       </div>
   
-      <div class="col col-sm-3 col-md-3 col-xl-3 pt-5 pb-3">
-        <div class="card h-100 mx-auto justify-content-center">
-          <img src="LandingPageImage.png" class="card-img-top" alt="...">  
-        <div class="card-body">
-            <h5 class="card-title">Startup event of the year</h5>
-            <p class="card-text">Landing page linked to an email form to capture customer data.</p>
+      <div class="carousel-inner">
+        
+        <div class="carousel-item">
+          <img src="Aurora hotel image.png" alt=""  id="carouselImage"class="d-flex img-fluid rounded pe-5 pe-5 ms-auto">
+
+          <div class="container">
+            <div class="carousel-caption text-center me-auto">
+              <h1 class="d-flex justify-content-start align-items-start pt-5" id="carouselTitle">Aurora Hotel</h1>
+              <p class="opacity-75 d-flex justify-content-start align-content-center pb-4 pt-3" id="carouselSummary">View the northern lights from a glass igloo.</p>
+              <p class="d-flex justify-content-start align-items-center"><a class="btn btn-lg btn-primary me-auto" href="https://peterarcuri.github.io/aurorahotelproject/index.html" target=”_blank” rel="noopener noreferrer">Book here!</a></p>
+            </div>
           </div>
-          <div class="card-footer">
-            <a href="https://peterarcuri.github.io/startup-of-the-year/" target=”_blank” rel="noopener noreferrer"><button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Startup</button></a>
+
+        </div>
+  
+        <div class="carousel-item">
+          <img src="tindogImage.png"  id="carouselImage"class="d-flex img-fluid rounded pe-5 ms-auto">
+
+          <div class="container">
+            <div class="carousel-caption text-center me-auto">
+              <h1 class="d-flex justify-content-start align-items-start pt-5" id="carouselTitle">TinDog</h1>
+              <p class="opacity-75 d-flex justify-content-start align-content-center pb-4 pt-3" id="carouselSummary">Tinder re-creation but for K9 companionship.</p>
+              <p class="d-flex justify-content-start align-items-center"><a class="btn btn-lg btn-primary me-auto" href="https://peterarcuri.github.io/Tindog/" target=”_blank” rel="noopener noreferrer">Register today</a></p>
+            </div>
+          </div>
+          
+        </div>
+  
+        <div class="carousel-item active">
+          <img src="LandingPageImage.png" alt=""  id="carouselImage"class="d-flex img-fluid rounded pe-5 ms-auto">
+
+          <div class="container">
+            <div class="carousel-caption text-center me-auto">
+              <h1 class="d-flex justify-content-start align-items-start pt-5" id="carouselTitle">Startup Event</h1>
+              <p class="opacity-75 d-flex justify-content-start align-content-center pb-4 pt-3" id="carouselSummary">Landing page redirected to email form.</p>
+              <p class="d-flex justify-content-start align-items-center"><a class="btn btn-lg btn-primary me-auto" href="https://peterarcuri.github.io/startup-of-the-year/" target=”_blank” rel="noopener noreferrer">Enter</a></p>
+            </div>
           </div>
         </div>
+        
       </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="font-size: 16px !important; line-height: 14px !important;">
+        <span class="carousel-control-prev-icon" aria-hidden="true" style="font-size: 16px !important;"></span>
+        <span class="visually-hidden" style="font-size: 16px !important; line-height: 24px !important;">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="font-size: 16px !important; line-height: 14px !important;">
+        <span class="carousel-control-next-icon" aria-hidden="true" style="font-size: 16px !important;"></span>
+        <span class="visually-hidden" style="font-size: 16px !important; line-height: 24px !important;">Next</span>
+      </button>
     </div>
 
   </div>
 
-  <div class="buffer1"></div>
+
+
+  <div class="container-fluid pt-5" id="section2">
+    <div class="row pt-4">
+      <div class="d-flex justify-content-center">
+        <img src="profilepic2 (1).jpg" alt="" class="profilePic img-fluid rounded-pill">
+      </div>
+
+      <div class="container-fluid">
+        <div class="row pt-2">
+          <div class="col w-auto h-auto d-flex justify-content-center">
+            <img src="Greeting Section.png" alt="" class="missionLogo img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row pt-2">
+          <div class="col d-flex justify-content-center">
+            <img src="Education Skills Section.png" alt="" class="education img-fluid">
+          </div>
+        </div>
+      </div>
+  
+    </div>
+
+
+  <div class="container-fluid no-padding" id="section3">
+
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <img src="Contact Page Header.png" alt="" class="contactHeader img-fluid">
+      </div>
+
+    <div class="container">
+      <div class="row g-2 d-flex flex-row justify-content-between">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="Address photo card.png" alt="" class="card-img-top">
+            <div class="card-body" id="cardAddress">
+              <div class="card-title">Address:</div>
+              <p class="card-text">7748 Washington Street, Port Richey, FL 34668</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="Phone photo card.png" alt="" class="card-img-top">
+            <div class="card-body" id="cardPhone">
+              <div class="card-title">Phone:</div>
+              <p class="card-text">(727) 247-9322</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 ps-5">
+          <div class="card">
+            <img src="Email photo card.png" alt="" class="card-img-top">
+            <div class="card-body" id="cardEmail">
+              <div class="card-title">Email:</div>
+              <p class="card-text">peterarcuri@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="buffer9"></div>
+
+  <div class="container-fluid" id="section4">
+    <div class="row">
+      <div class="col d-flex justify-content-center align-items-center">
+        <img src="Hobbies section.png" alt="" class="hobbies">
+      </div>
+    </div>
+  </div>
+
+  <div class="buffer9"></div>
+
+
 
   <div class="container">
     <footer>
-      <ul class="nav justify-content-center">
-        <li class="nav-item mx-3"><a href="index.html" class="nav-link2 px-2 text-body-secondary"><h3>Home</h3></a></li>
-        <li class="nav-item mx-3"><a href="resume.html" class="nav-link2 px-2 text-body-secondary"><h3>Resume</h3></a></li>
-        <li class="nav-item mx-3"><a href="contact.html" class="nav-link2 px-2 text-body-secondary"><h3>Contact</h3></a></li>
-        <li class="nav-item mx-3"><a href="hobbies.html" class="nav-link2 px-2 text-body-secondary"><h3>Hobbies</h3></a></li>
-        <li class="nav-item mx-3"><a href="index.html" class="nav-link2 px-2 text-body-secondary"><h3>Portolio</h3></a></li>
-      </ul>
       <div class="line"></div>
-      <p class="text-center"><h2 class="text-center">© 2024 Peter Arcuri: Web Developer</h2></p>
+      <p class="text-center pt-3"><h2 class="text-center">© 2024 Peter Arcuri: Web Developer</h2></p>
     </footer>
   </div>
-</div>
+  </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>          
